@@ -1,0 +1,37 @@
+﻿* Branches for Git Hub
+
+* Z-index (CSS) (layers)
+
+* Developer Road Map
+  - Frontend
+	HTML
+	CSS
+	JS
+* Look at Slack for extentsions
+	ES lint - install vid on slack
+	Prettier - install vid on slack
+* Solo learn app - has many different languages
+* Git it
+	Forks
+	Clones
+	Remotes
+	Branching (the goal for this week) Mastering
+* Resource on Notion
+	Learn Git Branching
+
+Class Notes
+
+* Can't pull from Git
+	-git stash (saves into a cubby) do want your stuff
+	-git clean -fd (wipes all untracked)
+	-git reset --hard (does not add any new commit; reverts to last commits and forgets about your current commits)
+* Floats
+	- understand how it works
+	- clear fix-
+* Precedence in CSS
+	- ID; Class; Tag
+* Add a CSS Reset to the homework
+* Git hub: -a (adds all)
+
+	
+	

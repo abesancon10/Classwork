@@ -1,0 +1,45 @@
+*Little lines b/w header buttons
+	display in-line block css
+	change border
+	list item with pipe character
+	border right
+
+Look up "hr" tag
+
+PluralSight: offers some of the best online courses for HTML, CSS, Javascript, Node, Express and Angular.
+
+Books: You don't know JS; Eloquent Javascript (free)
+
+Youtuber javascript: fun fun function
+
+
+
+CSS/Bootstrap
+
+*CSS Typography and Google Fonts
+	Line Height: Golden Ratio of 1.5x font
+	Font Size: at least 16 px
+	Letter Length
+	Sans-Serif vs Serif (fancyish vs plain jane)
+	
+*Pseudo-Classes
+
+*The Basics of Twitter Bootstrap
+
+*HW* Sticky footer
+
+*Contact - use forms
+
+Watch the Zoom
+
+See laptop open tabs
+
+Bootstrap: can't use on first assignment
+
+CDN: Content Delivery Network
+
+GIT init - makes a directory a repository
+
+
+
+
