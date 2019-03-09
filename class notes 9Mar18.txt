@@ -1,0 +1,40 @@
+class note 9MAR18
+
+* Branching *
+	-Master (Origin/remote)
+	-commit = photo/snapshot
+	
+-Git checkout -B <name> (creates new branch)
+-Git branch
+-Git checkout --help (shows the git checkout commands)
+*HEAD* what your currently looking at
+	-git log (shows what has been done)
+	-if the branches are on the same head they are the same
+-git merge <name> (branch above pulls the changes from lower branch ex: master merges w/ homework)
+-git branch -D <name> (deletes the branch)
+-SHAW is an identifier
+
+-'Tags' are shortcuts to shaws; like a bookmark; shortcut to a commit
+
+Git Hub Pull Request comment: exactly what you touch in code why your touching it, and how it receives it. Can attach pictures.
+
+-each branch is a feature-
+
+
+* GRID media Queries *
+-design with grid in mind
+-Remember this order: container, row, column
+	-Containers wrap around entire grid
+	-Rows defined first and just rows
+	-columns defined within rows and specify the columns. The sum total of all columns within a row must asss up to 12
+	-Each element is implemented by creating a div with a specific class name
+-Lorin epsum - filler text (ajkdflkjenkvnerfv)
+
+-media query
+syntax @media screen and (max-width: 768px)
+
+
+
+
+
+
