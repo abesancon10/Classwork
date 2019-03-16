@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Favorite TV Shows</title>
+  </head>
+  <body>
+
+    <script type="text/javascript">
+
+      // define variable defined by []
+      var favTVshows = [];
+      var tvShow; // memory variable
+
+      // Loops 3 times
+      for (var i = 1; i < 4; i++) {
+
+        // ask user what tv show is; stores data in the array through the string (var favTVshows); global scope
+        tvShow = prompt("What's your #" + i + " favorite TV show?");
+
+        // pushes the current within the parens at the end of the array
+        favTVshows.push(tvShow);
+        // .push is a method attached to any array [].
+      }
+
+      // loops through the array
+      // array.splice
+      for (var j = 0; j < favTVshows.length; j++) {
+
+        // using bracket notation we are calling the j index of the array
+        alert(favTVshows[j]);
+      }
+
+    </script>
+
+  </body>
+</html>

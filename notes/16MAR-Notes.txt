@@ -1,0 +1,5 @@
+MAR16
+
+var.includes(firstChar) //makes the variable truthy or falsey
+
+

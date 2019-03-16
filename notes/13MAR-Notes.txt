@@ -1,0 +1,58 @@
+Wednesday 13MAR Notes
+
+String- a collection of characters "quotation marks are for strings"
+
+Number- Any number
+
+Boolean- a true or false value
+
+Arrays- lists of things; identified by brackets ["orange", "purple", "black"] [6, 4, 5]
+
+Objects- a list of key/value pairs; identified with curly brackets
+
+	{
+		snake: "A legless reptile",
+ 		human: "A 2 legged mammal",
+		dog: "A 4 legged mammal",
+		glados: "A potato",
+	}
+
+Control Flow: if (blah blah blah piping=or       )
+
+Block of code: if (babies are evil) {
+
+		}
+
+Javascript is an interpretor/ not compiled
+Variable nouns of programming; they are things
+Console.log means to print 
+	DOM = document object model
+	isn't a blocker
+
+[] and {} are data structures
+	key value pairs
+		{key:value}
+
+PUSHING .push is a method adds an element to the end of an array
+POPPIN .pop is a method that removs the last item
+mutate (mutation) 
+
+Loops
+
+4loop-
+	for(var i = 0; i < vegetables.length; i++) {
+	consol.log("I love " + vegetables[i]);
+	}
+
+i++ means i = i + 1
+i = 0 means i will start at 0
+A valid loop has 2 ;
+
+
+hold both hands
+one hand fist
+second flat palm up
+hit fist to open hand twice in unison with other player
+player chooses to trow put there index and middle finger ou
+
+You pressed wht ever key
