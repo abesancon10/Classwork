@@ -1,0 +1,17 @@
+Class Notes 11MAR
+
+*pull request specific by line number; what was changed and why it was changed
+
+*Homework*
+-Projects: new requirement for homework
+	-click  on projects in git repo
+	-new project
+	-auto? Kabaun
+
+*JS*
+
+JavaScript Functions
+	
+
+
+JavaScript Objects
