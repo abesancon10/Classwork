@@ -1,0 +1,15 @@
+27MAR
+
+learn patterns; not specific lines of code
+
+$(document).on("click", "#tails", function() {
+	.text //to write shit in the dom
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,42 @@
+25MAR
+
+dynamic vs static: dynamic interprets what you code static reads the code and does 
+
+NUKE METHOD
+
+git reset --HARD  
+git clean -fd (untracked goes bye bye)
+
+GIT STASH
+
+git stash
+git pull
+git stash pop (checksout your changes from the stash)
+
+Bootstrap Grid
+
+"col-lg-6" class for size of coloumns
+
+"col" is a class
+
+JAVASCRIPT
+
+types of variables:
+var
+let
+const
+
+var does hoisting different from other variables
+let and const normally in block scoped
+const = constant; a variable that is not meant to be reassigned
+
+mutable and enmutable:
+muteable can be changed
+
+IIFE
+Immidiatly invoked function expression
+
+function with a parameter
+
+document.onkeyup = function(event) {}
+event is the parameter
