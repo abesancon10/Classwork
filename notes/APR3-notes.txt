@@ -1,0 +1,83 @@
+ <script type="text/javascript">
+        // Initial array of movies
+        var movies = [
+          "The Matrix",
+          "The Notebook",
+          "Mr. Nobody",
+          "The Lion King"
+        ];
+        function makeButton(str) {
+          return `<button>${str}</button>`;
+        }
+        // Function for displaying movie data
+        function renderButtons() {
+          // YOUR CODE GOES HERE
+        $('#buttons-view').html(movies.map(makeButton));
+        }
+
+        // This function handles events where one button is clicked
+        $("#add-movie").on("click", function() {
+          // YOUR CODE GOES HERE
+        });
+
+        // Calling the renderButtons function to display the initial list of movies
+        renderButtons();
+      </script>
+
+
+                $('#movie-view').html(`
+          <h1>Nuit Renard Draws<h1>
+          <h2>Nuit Renard draws a bestselling manga<h2>
+          <img src=www.google.com>`)
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script type="text/javascript">
+        // Initial array of movies
+        var movies = [
+          "The Matrix",
+          "The Notebook",
+          "Mr. Nobody",
+          "The Lion King"
+        ];
+        function makeButton(str) {
+          return `<button class="movie">${str}</button>`;
+        }
+        // Function for displaying movie data
+        function renderButtons() {
+          // YOUR CODE GOES HERE
+          $("#buttons-view").html(movies.map(makeButton));
+        }
+
+        // This function handles events where one button is clicked
+        $("#add-movie").on("click", function(event) {
+          event.preventDefault();
+          // YOUR CODE GOES HERE
+          var movie = $("#movie-input").val();
+          movies.push(movie);
+          renderButtons();
+          //adds the button the end of the array (push)
+        });
+
+        // Calling the renderButtons function to display the initial list of movies
+        renderButtons();
+
+        $(document).on("click", ".movie", function() {
+          console.log($(this).text());
+
+          var movie = $(this).text();
+          var queryURL =
+            "https://www.omdbapi.com/?t=" +
+            movie +
+            "&y=&plot=short&apikey=trilogy";
+          //these vars run when the document loads
+          $.ajax({
+            url: queryURL,
+            method: "GET"
+          }).then(function(movie) {
+            $("#movie-view").html(`
+              <h1>${movie.Title}</h1>
+              <p>${movie.Plot}</p>
+              <img src="${movie.Poster}"/>
+              `);
+          });
+        });
