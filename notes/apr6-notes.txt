@@ -1,0 +1,40 @@
+var arr = [1,2,3,4,5]
+
+function square(x){
+    return x * x;
+}
+
+arr.map(square)
+
+console.log(square);
+
+
+
+
+
+var arr = [ {
+    author: 'Somebody',
+    title: 'what i did today'
+    text: 'article text'
+}, {}, {}]
+
+function makeIntoHTMLArticle(article){
+    return `<div>
+    <p> by: ${article.author} </p>
+    <h1> ${article.title}</h1>
+    <p> ${article.text}</p>
+    </div>
+    `}
+
+arr.map(makeIntoHTMLArticle)
+
+JSON is a format used by other programs
+JSON is generally very readable
+
+
+
+< state: data-state="still" >
+
+$('css selector').on('click', function (){
+this.
+});

@@ -1,0 +1,7 @@
+-github org (owners)
+-github repo
+	-Project Board
+		-automated combine
+	-Lock the master
+	-Everyone on team must review pull request
+	-

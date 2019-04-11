@@ -1,0 +1,4 @@
+8APR Notes
+
+-sessionStorage stores information in the browser for that session
+    if closed it wipes the this information
