@@ -1,0 +1,46 @@
+March 18 Notes
+
+jQuery $(begins)
+
+-don't forget to 
+-enables more functionality with less code
+
+-go to JS Workbook to practice, watch the videos
+
+-DOM manipulation
+
+	-enables you to target one part of the webpage
+	-select and manipulate: select the element and manipulate it to do something else
+'document' is the whole DOM
+
+lines of code are executed after the machine reads the line
+
+variable.appendChild(change)
+
+.setAttribute("", "")	//what you want to change and how you want it to change; vanilla js
+
+jQuery:
+
+-when researching things double check that it will still work with the latest version
+
+-$ =jQuery run this
+-# =ID
+
+ex. $("#clickMe").on("click", function(){
+ 	//jQuery target clickMe on click execute function
+	
+	alert("I've been clicked")
+	}
+
+jQuery has the key of 0;
+
+
+Dennis Mannis youtube resource for damn near all language
+
+
+CDN minified version of jQuery do not include AJAX; get the full package
+step over debugger
+
+// This "document.ready" code isn't always necessary but is useful to become familiar with.
+    // "document.ready" makes sure that our JavaScript doesn't get run until the HTML document is finished loading.
+    $(document).ready(function() {

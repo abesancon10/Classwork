@@ -1,0 +1,39 @@
+20 MARCH
+
+Psuedocoding Cap Planet Game - in UTAU folder
+
+JS
+
+var variableAbove = "foxes and snakes.";
+var Nuit = `Nuit Renards favoite animal is ${variableAbove}`;
+
+
+*Scope*
+
+accessability of vars
+
+Local
+Global
+Leareal
+
+return 
+	like ma giving me money for ice scream and yells "AND BRING ME BACK MY CHANGE"
+
+side effect
+	console.log is a side effect; it cannot be returned
+
+vocab Hoisting:
+
+example
+
+var thing
+//global
+
+function stuff () {
+  var thing = 0;
+  thing++;
+  return thing
+}
+stuff() =undefined
+
+

@@ -1,0 +1,7 @@
+API
+
+chrome addon to install: JSON Formatter
+get an account on https://rapidapi.com/divad12/api/numbers-1
+    API resource for data resources as well as APIs that doing thing
+
+Look up 418 error code

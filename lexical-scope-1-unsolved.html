@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Scope</title>
+</head>
+<body>
+
+  <h2>Check console to see the madness!</h2>
+
+  <script>
+    var outerFunction = function() {
+
+      var x = 5; //lexical scope
+
+      var nestedFunction = function() {
+
+        var y = 7;
+
+        // What will this print?
+        console.log("X: " + x); //should print X out as 5
+        
+        console.log("Y: " + y); //should print y out as 7
+        var z = 10;
+        // should print z out as 10
+        console.log("Z (inside): " + z);
+      };
+
+      return nestedFunction ; //returns outerfunction
+    };
+
+    var myFunction = outerFunction(); //IIFE: advance concept
+    myFunction();
+    //ln 32 can be written like outerFunction()()
+    // What will this print?
+    console.log("Z (outside): " + z);
+
+</script>
+
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+    <title>
+      Data Types, User Input, Conditional Logic
+    </title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      var userName = prompt("What's your name?");
+      /* Taking user input and setting that data assigned (OPERATER (=)) to the userName variable */
+      var confirmCats = confirm("Do you like cats?");
+      /* boolean is a true or false value and confirm cats will store that resultfrim*/
+      var petName = "Meeses"; //STRING
+      var petType = "Tuxedo Cat"; //STRING one deminsional array in quotes
+      var petAge = 5;//NUMBER whole numbers and zero
+      var petIsCat = true; //BOOLEAN
+      
+      if (confirmCats) {                            /* if ("")   is falsey*/
+        alert(petName + " " + petType + " " + petAge);
+      } else {
+        alert("You don't get my cat's information"); //CONDITIONAL if statement//
+       
+        //CATATINATING 
+        //COERSION the string will try to trump
+        //Looking for a TRUTHY or FALSEY value
+        //PARSENT 
+        /*Data Structures {} is a structure  while this {
+            alert()
+        } 
+        is a block of data*/
+        
+        //[] is an ARRAY//
+
+        //dot notation
+        //ARRAYs start with index 0 however when undefined is +1
+        //Key value pairs in objects
+
+
+      }
+      if (petIsCat) {
+        alert("My pet is a cat");
+      } else {
+        alert("My pet is not a cat");
+      }
+      if (petAge !== 7) { //!== is not exactly equal to number
+      //== exact === exact including type
+        alert("My pet is not 7 years old");
+      }
+      if (petAge === 5) {
+        alert("My pet is 5 years old");
+      } else if (petAge < 5) {
+        alert("My pet is less than 5 years old");
+      } else if (petAge > 5) {
+        alert("My pet is older than 5 years old");
+      }
+      // document.write() overwrites the entire page. We don't normally use this, but we will today for simplicity
+      document.write("Welcome to our page " + userName); //DOM Breakpoints
+      var catAge = prompt("How old is your cat?");
+      // Won't work as expected
+      alert(catAge + 2); //is not math operation, it is a CATATINGER this will coerse the string
+      // Works as expected
+      alert(parseInt(catAge) + 2);
+      /* CONSOLE targeting a function to ENVOKE (calling a function) */
+      //STATICLY TYPED LANGUAGE must declare the variable; JS don't do this//
+      //JS is a DYNAMICALLY type lang//
+      //COMPILED lang = 'this happens first'; JS don't do this//
+      //JS is an INTERPRATIVE lang; it will run line by line until a bug//
+    </script>
+    
+  </body>
+Collapse
+
+
+</html>

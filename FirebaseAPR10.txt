@@ -1,0 +1,5 @@
+-Firebase is a database
+-Firebase does not use SQL
+-Train HW hard part may be moment.js
+-JSON = "key": "thing"
+-
