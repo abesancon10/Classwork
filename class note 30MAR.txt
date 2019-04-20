@@ -1,0 +1,18 @@
+//ex:
+//Input: "let's go"
+//Output: 2
+
+function wordcount(str){
+    return str.split(" ").length;
+}
+
+//Binary Search:
+//requirement is an Assorted Array
+
+//turn the problem into a smaller problem in order to solve into
+
+//This is an object
+
+var answers {
+
+}
