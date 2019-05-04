@@ -1,5 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+<<<<<<< Updated upstream
+  <head>
+    <meta charset="UTF-8" />
+    <title>Scope</title>
+  </head>
+  <body>
+    <h2>Check console to see the madness!</h2>
+
+    <script>
+      var outerFunction = function() {
+        var x = 5; //lexical scope
+        var nestedFunction = function() {
+          var y = 7;
+          // What will this print?
+          console.log("X: " + x); //SHOULD print out X as 5
+
+          // What will this print?
+          console.log("Y: " + y);
+          var z = 10;
+          // What will this print?
+          console.log("Z (inside): " + z);
+        };
+
+        return nestedFunction;
+      };
+
+      var myFunction = outerFunction();
+      myFunction();
+      // outerFunction()(); //IIFE
+      // What will this print?
+      console.log("Z (outside): " + z);
+    </script>
+  </body>
+</html>
+=======
 <head>
   <meta charset="UTF-8">
   <title>Scope</title>
@@ -11,27 +46,29 @@
   <script>
     var outerFunction = function() {
 
-      var x = 5; //lexical scope
+      var x = 5;
 
       var nestedFunction = function() {
 
         var y = 7;
 
         // What will this print?
-        console.log("X: " + x); //should print X out as 5
-        
-        console.log("Y: " + y); //should print y out as 7
+        console.log("X: " + x);
+        //5
+        // What will this print?
+        console.log("Y: " + y);
+//7
         var z = 10;
-        // should print z out as 10
+        // What will this print?
         console.log("Z (inside): " + z);
       };
 
-      return nestedFunction ; //returns outerfunction
+      return nestedFunction ();
     };
 
-    var myFunction = outerFunction(); //IIFE: advance concept
+    var myFunction = outerFunction();
     myFunction();
-    //ln 32 can be written like outerFunction()()
+
     // What will this print?
     console.log("Z (outside): " + z);
 
@@ -39,3 +76,4 @@
 
 </body>
 </html>
+>>>>>>> Stashed changes

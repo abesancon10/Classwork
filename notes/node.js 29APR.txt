@@ -1,0 +1,7 @@
+Node.js
+
+-Node is a open source, cross-platform Javascript runtime
+-reuses JS, it has a few differences (i.e. Event-loop)
+-it's extendable, has many packages (plugins)
+-fast-implementation- allows for the coding of an entire working server with a few lines of code
+-single threaded asynchrinius model - it can have multiple requests
